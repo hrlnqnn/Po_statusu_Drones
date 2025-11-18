@@ -117,13 +117,20 @@ nav ul li a {
 }
 @media screen and (max-width: 770px) {
   .banner-text h1 {
-    font-size: 44px;
+    font-size: 90px;
   }
   .banner-btn a {
     display: block;
     margin: 20px auto;
   }
 } 
+
+@media (max-width: 576px) { 
+    .banner-text h1 {
+    font-size: 70px;
+  }
+}
+
 
 
 /*--feature--*/
@@ -208,7 +215,7 @@ nav ul li a {
   text-align: initial;
 }
 @media screen and (max-width: 770px) {
-  .title-text h1 {
+  .title-text h2 {
     font-size: 35px;
   }
   .features {
@@ -221,6 +228,13 @@ nav ul li a {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 480px) { 
+    .title-text h2 {
+    font-size: 30px;
+  }
+ }
+
 
 /*-----service------*/
 
@@ -288,6 +302,7 @@ hr {
   bottom: 40%;
   opacity: 1;
 }
+
 @media screen and (max-width: 770px) {
   .single-service {
     flex-basis: 100%;
@@ -449,9 +464,9 @@ hr {
 }
 
 @media screen and (max-width: 860px){
-.footer-row{
-  flex-direction: column;
-}
+  .footer-row{
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 770px){
@@ -461,5 +476,11 @@ hr {
   }
   .footer-img{
     top: 25%;
+  }
+}
+
+@media screen and (max-width: 480px) { 
+.footer-left .far, .footer-right .fas {
+  margin: 4px;
   }
 }
