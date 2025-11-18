@@ -64,7 +64,8 @@ h2 {
 .banner-text h1 {
   font-size: 130px;
 }
-.banner-text p {
+.subtext {
+  display: block;
   font-size: 20px;
 }
 .banner-btn {
