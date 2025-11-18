@@ -34,15 +34,28 @@ h2 {
   flex-direction: column;
 }
 
-.logo {
+.banner-logo {
   position: absolute;
   top: 20px;
   left: 30px;
+  display: flex;
+  align-items: center;
   font-size: 25px;
   line-height: 0.8;
   color: var(--secondary-acent-warm);
   text-align: left;
+
 }
+
+.logo {
+  position: relative;
+  right: 60px;
+  margin: 0 0 0 10px;
+  font-size: 25px;
+  line-height: 0.8;
+  color: var(--secondary-acent-warm);
+}
+
 .banner-text {
   text-align: center;
   color: var(--dark-acent_text);
@@ -243,7 +256,7 @@ nav ul li a {
   top: 0;
   border-radius: 7px;
   cursor: pointer;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), var(--secondary-acent-warm));
+  background: linear-gradient(rgba(0, 0, 0, 0.254), var(--secondary-acent-warm));
   opacity: 0;
   transition: 1s;
 }
@@ -267,7 +280,8 @@ hr {
   width: 60%;
 }
 .service-desc p {
-  font-size: 14px;
+  font-size: 20px;
+  color: var(--light-acent_text);
 }
 
 .single-service:hover .service-desc {
