@@ -12,70 +12,64 @@
 	<link rel="shortcut icon" href="/Images/Favicon/favicon.ico" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/Images/Favicon/apple-touch-icon.png" />
 	<link rel="manifest" href="/Images/Favicon/site.webmanifest" />
-
 	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
+	<!--Banner-->
 <section id="banner">
 	<div class="banner-logo">
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50">
-    <defs>
-      <clipPath id="half">
-        <rect x="0" y="0" width="50" height="50"/>
-      </clipPath>
-    </defs>
-    <image href="./Images/drone_logo.svg" width="100" height="50" clip-path="url(#half)"/>
-  		</svg>
-	 	<h2 class="logo">Po <br>Statusu <br> Drones</h2>
+			<defs>
+				<clipPath id="half">
+					<rect x="0" y="0" width="50" height="50"/>
+				</clipPath>
+			</defs>
+			<image href="./Images/drone_logo.svg" width="100" height="50" clip-path="url(#half)"/>
+		</svg>
+		<h2 class="logo">Po <br>Statusu <br> Drones</h2>
 	</div>
 	<div class="banner-text">
 		<h1>Drone Hub</h1>
 		<p>Преміальні дрони та акумулятори для будь-яких завдань</p>
-		<!-- <div class="banner-btn">
-			<a href="#"><span></span>Find Out</a>
-			<a href="#"><span></span>Read More</a>
-		</div> -->
 	</div>
 	<video autoplay muted loop preload="auto" class="bg-video" poster="/Images/banner.jpg">
 		<source src="/Videos/background.mp4" type="video/mp4">
     </video>
 </section> 
-
-<div id="sideNav">
-	<nav>
-	<ul>
-		<li><a href="#banner">Головна</a></li>
-		<li><a href="#feature">Переваги</a></li>
-		<li><a href="#service">Наш Асортимент</a></li>
-		<li><a href="#testimonial">Відгуки</a></li>
-		<li><a href="#footer">Контакти</a></li>
-	</ul>
-	</nav>
-</div>
-<div id="menuBtn">
-	<img src="Images/menu.png" id="menu">
-</div>
-
+<!--Burger menu-->
+<section class="burger-menu">
+	<div id="sideNav">
+		<nav>
+			<ul>
+				<li><a href="#banner">Головна</a></li>
+				<li><a href="#feature">Переваги</a></li>
+				<li><a href="#service">Наш Асортимент</a></li>
+				<li><a href="#testimonial">Відгуки</a></li>
+				<li><a href="#footer">Контакти</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="menuBtn">
+		<img src="Images/menu.png" id="menu">
+	</div>
+</section>
 <!--Fearures-->
-
 <section id="feature">
 	<div class="title-text">
 		<p>Переваги</p>
-			<h2>Чому Обирають Нас</h2>
+		<h2>Чому Обирають Нас</h2>
 	</div>
 	<div class="feature-box">
 		<div class="features"> 
 			<h3>Оригінальна техніка</h3>
 			<div class="features-desc">
-					<div class="feature-icon"> 
-						<i class="fas fa-plane"></i>
-
-					</div>
-					<div class="feature-text">
-						<p>Ми працюємо тільки з перевіреними постачальниками, тому гарантуємо 100% оригінальність дронів та комплектуючих.</p>
-					</div>
+				<div class="feature-icon"> 
+					<i class="fas fa-plane"></i>
+				</div>
+				<div class="feature-text">
+					<p>Ми працюємо тільки з перевіреними постачальниками, тому гарантуємо 100% оригінальність дронів та комплектуючих.</p>
+				</div>
 			</div>
-
 			<h3>Швидка доставка по Україні</h3>
 			<div class="features-desc">
 					<div class="feature-icon"> 
@@ -85,50 +79,44 @@
 						<p>Відправляємо замовлення у день покупки. Ви отримуєте техніку максимально швидко — без очікування та затримок.</p>
 					</div>
 			</div>
-
 			<h3>Акумулятори з перевіреним ресурсом</h3>
 			<div class="features-desc">
-					<div class="feature-icon"> 
-						<i class="fas fa-battery-full"></i>
-					</div>
-					<div class="feature-text">
-						<p>Кожен акумулятор проходить тестування перед продажем: ми гарантуємо високу ємність і стабільну роботу.</p>
-					</div>
+				<div class="feature-icon"> 
+					<i class="fas fa-battery-full"></i>
+				</div>
+				<div class="feature-text">
+					<p>Кожен акумулятор проходить тестування перед продажем: ми гарантуємо високу ємність і стабільну роботу.</p>
+				</div>
 			</div>
-
 			<h3>Професійна консультація</h3>
 			<div class="features-desc">
-					<div class="feature-icon"> 
-						<i class="fas fa-headset"></i>
-					</div>
-					<div class="feature-text">
-						<p>Підбираємо дрон під ваші задачі: зйомка, обстеження територій, FPV, комерційне використання. Дамо чесну пораду без зайвого маркетингу.</p>
-					</div>
+				<div class="feature-icon"> 
+					<i class="fas fa-headset"></i>
+				</div>
+				<div class="feature-text">
+					<p>Підбираємо дрон під ваші задачі: зйомка, обстеження територій, FPV, комерційне використання. Дамо чесну пораду без зайвого маркетингу.</p>
+				</div>
 			</div>
-
 			<h3>Технічна підтримка та допомога</h3>
 			<div class="features-desc">
-					<div class="feature-icon"> 
-						<i class="fas fa-tools"></i>
-					</div>
-					<div class="feature-text">
-						<p>Підкажемо, як налаштувати обладнання, оновити прошивку, під’єднати аксесуари та правильно заряджати акумулятори, щоб продовжити їх ресурс.</p>
-					</div>
+				<div class="feature-icon"> 
+					<i class="fas fa-tools"></i>
+				</div>
+				<div class="feature-text">
+					<p>Підкажемо, як налаштувати обладнання, оновити прошивку, під’єднати аксесуари та правильно заряджати акумулятори, щоб продовжити їх ресурс.</p>
+				</div>
 			</div>
 		</div>
-
 		<div class="features-img"> 
 			<img src="Images/features_image.jpg">
 		</div>
 	</div>
 </section>
-
 <!--Service-->
-
 <section id="service">
 	<div class="title-text">
 		<p>Наш Асортимент</p>
-			<h2>Пропонуємо Найкраще</h2>
+		<h2>Пропонуємо Найкраще</h2>
 	</div>
 	<div class="service-box">
 		<div class="single-service">
@@ -204,11 +192,8 @@
 			</div>
 		</div>
 	</div>
-
 </section>
-
 <!--Testimonial-->
-
 <section id="testimonial">
 	<div class="title-text">
 		<p>Відгуки</p>
@@ -216,42 +201,35 @@
 	</div>
 	<div class="testimonial-row">
 		<div class="testimonial-col">
-		<div class="user">
-			<img src="Images/img-1.jpg">
-			<div class="user-info">
-				<h4>Олександр, Харків</h4>
-				<!-- <small>@kennorth</small> -->
+			<div class="user">
+				<img src="Images/img-1.jpg">
+				<div class="user-info">
+					<h4>Олександр, Харків</h4>
+				</div>
 			</div>
-		</div>
 			<p>Замовив DJI Mavic 3 — отримав за два дні. Усе оригінальне, акумулятори в чудовому стані. Консультація була дуже професійною, допомогли з налаштуванням. Рекомендую! </p>
 		</div>
 		<div class="testimonial-col">
 			<div class="user">
-			<img src="Images/img-2.jpg">
-			<div class="user-info">
-				<h4>Олена, Чернігів</h4>
-				<!-- <small>@saraparker</small> -->
+				<img src="Images/img-2.jpg">
+				<div class="user-info">
+					<h4>Олена, Чернігів</h4>
+				</div>
 			</div>
-		</div>
 			<p>Купувала дрон для роботи. Менеджер підібрав модель під мої задачі та бюджету. Якість сервісу приємно здивувала. Буду звертатися ще.</p>
 		</div>
 		<div class="testimonial-col">
 			<div class="user">
-			<img src="Images/img-3.jpg">
-			<div class="user-info">
-				<h4>Микита, Суми</h4>
-				<!-- <small>@rickydanial</small> -->
+				<img src="Images/img-3.jpg">
+				<div class="user-info">
+					<h4>Микита, Суми</h4>
+				</div>
 			</div>
-		</div>
 			<p>Брав комплектуючі до свого Mavic 3. Усе оригінал, ціни адекватні, доставка швидка. Дякую за чесність і швидкий зв’язок!</p>
 		</div>
 	</div>
-
-
 </section>
-
 <!--Footer-->
-
 <section id="footer">
 	<img src="Images/footer-img.png" class="footer-img">
 	<div class="title-text">
@@ -259,22 +237,21 @@
 		<h2>Купуйте Сьогодні — Користуйтеся Завтра</h2>
 	</div>
 	<div class="footer-row">
-			<div class="footer-left">
-				<h4>Години Роботи</h4>
-				<p><i class="far fa-clock"></i>Понеділок – П’ятниця: 10:00 – 21:00</p>
-				<p><i class="far fa-clock"></i>Субота – Неділя: 11:00 – 18:00</p>
-			</div>
-			<div class="footer-right">
-				<h4>Зв’яжіться з Нами</h4>
-				<a href="mailto:abcdefg@gmail.com">abcdefg@gmail.com
-					<i class="fas fa-envelope"></i>
-				</a>
-				<a href="tel:+380954382526">+38 095 438 25 26 
-					<i class="fas fa-phone"></i>
-  				</a>
-			</div>
+		<div class="footer-left">
+			<h4>Години Роботи</h4>
+			<p><i class="far fa-clock"></i>Понеділок – П’ятниця: 10:00 – 21:00</p>
+			<p><i class="far fa-clock"></i>Субота – Неділя: 11:00 – 18:00</p>
+		</div>
+		<div class="footer-right">
+			<h4>Зв’яжіться з Нами</h4>
+			<a href="mailto:abcdefg@gmail.com">abcdefg@gmail.com
+				<i class="fas fa-envelope"></i>
+			</a>
+			<a href="tel:+380954382526">+38 095 438 25 26 
+				<i class="fas fa-phone"></i>
+			</a>
+		</div>
 	</div>
-
 	<div class="social-links">
 		<a href="https://wa.me/380XXXXXXXXX" target="_blank">
     		<i class="fab fa-whatsapp"></i>
@@ -287,16 +264,12 @@
 		</a>
 		<p>ТОВ "По статусу"</p>
 	</div>
-
 </section>
-
 <script>
 	var menuBtn = document.getElementById("menuBtn")
 	var sideNav = document.getElementById("sideNav")
 	var menu = document.getElementById("menu")
-
 	sideNav.style.right = "-250px";
-
 	menuBtn.onclick = function(){
 		if(sideNav.style.right == "-250px"){
 			sideNav.style.right = "0";
@@ -307,13 +280,10 @@
 			menu.src = "Images/menu.png"
 		}
 	}
-
 	var scroll = new SmoothScroll('a[href*="#"]', {
 		speed: 1000,
 		speedAsDuration: true
 	});
-
 </script>
-
 </body>
 </html>
