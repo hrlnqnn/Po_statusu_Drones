@@ -39,7 +39,7 @@
 					<rect x="0" y="0" width="50" height="50"/>
 				</clipPath>
 			</defs>
-			<image href="./Images/drone_logo.svg" width="100" height="50" clip-path="url(#half)" alt="Логотип Status Drones"/>
+			<image href="./Images/drone_logo.svg" width="100" height="50" clip-path="url(#half)" alt="Логотип Status Drones" loading="lazy"/>
 		</svg>
 		<h2 class="logo">Status <br> Drones</h2>
 	</div>
@@ -48,9 +48,10 @@
 			<span class="subtext">Преміальні дрони та акумулятори для будь-яких завдань</span>
 		</h1>
 	</div>
-	<video autoplay muted loop preload="auto" class="bg-video" poster="/Images/banner.jpg">
+	<video autoplay muted loop preload="auto" class="bg-video" poster="Images/banner.webp" aria-label="Фонове відео з дроном">
 		<source src="/Videos/background.mp4" type="video/mp4" alt="Дрон на сірому фоні" aria-label="Фонове відео з дроном">
-    </video>
+		<img src="Images/banner.jpg" alt="Фонове зображення з дроном">
+	</video>
 </section> 
 <!--Burger menu-->
 <section class="burger-menu">
@@ -123,8 +124,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="features-img"> 
-			<img src="Images/features_image.jpg" alt="Дрон крупним планом — ілюстрація переваг Status Drones">
+		<div class="features-img">
+			<picture>
+				<source srcset="Images/features_image.webp" type="image/webp">
+				<img src="Images/features_image.jpg" alt="Дрон крупним планом — ілюстрація переваг Status Drones" loading="lazy">
+			</picture>
 		</div>
 	</div>
 </section>
@@ -136,7 +140,10 @@
 	</div>
 	<div class="service-box">
 		<div class="single-service">
-			<img src="Images/pic-1.webp" alt="Квадрокоптер DJI Mavic 3">
+			<picture>
+				<source srcset="Images/pic-1.webp" type="image/webp">
+				<img src="Images/pic-1.jpg" alt="Квадрокоптер DJI Mavic 3" loading="lazy">
+			</picture>
 			<div class="overlay"></div>
 			<div class="service-desc">
 				<h3>Квадрокоптер DJI Mavic 3</h3>
@@ -145,7 +152,10 @@
 			</div>
 		</div>
 		<div class="single-service">
-			<img src="Images/pic-2.webp" alt="Квадрокоптер DJI Mavic 3 Pro">
+			<picture>
+				<source srcset="Images/pic-2.webp" type="image/webp">
+				<img src="Images/pic-2.jpg" alt="Квадрокоптер DJI Mavic 3 Pro" loading="lazy">
+			</picture>
 			<div class="overlay"></div>
 			<div class="service-desc">
 				<h3>Квадрокоптер DJI Mavic 3 Pro</h3>
@@ -154,7 +164,10 @@
 			</div>
 		</div>
 		<div class="single-service">
-			<img src="Images/pic-3.webp" alt="Квадрокоптер DJI Mavic 3 Enterprise">
+			<picture>
+				<source srcset="Images/pic-3.webp" type="image/webp">
+				<img src="Images/pic-3.jpg" alt="Квадрокоптер DJI Mavic 3 Enterprise" loading="lazy">
+			</picture>
 			<div class="overlay"></div>
 			<div class="service-desc">
 				<h3>Квадрокоптер DJI Mavic 3 Enterprise</h3>
@@ -163,7 +176,10 @@
 			</div>
 		</div>
 		<div class="single-service">
-			<img src="Images/pic-4.webp" alt="Квадрокоптер DJI Matrice 4T">
+			<picture>
+				<source srcset="Images/pic-4.webp" type="image/webp">
+				<img src="Images/pic-4.jpg" alt="Квадрокоптер DJI Matrice 4T" loading="lazy">
+			</picture>
 			<div class="overlay"></div>
 			<div class="service-desc">
 				<h3>Квадрокоптер DJI Matrice 4T</h3>
@@ -172,7 +188,10 @@
 			</div>
 		</div>
 		<div class="single-service">
-			<img src="Images/pic-5.webp" alt="Акумулятор DJI Mavic 3">
+			<picture>
+				<source srcset="Images/pic-5.webp" type="image/webp">
+				<img src="Images/pic-5.jpg" alt="Акумулятор DJI Mavic 3" loading="lazy">
+			</picture>
 			<div class="overlay"></div>
 			<div class="service-desc">
 				<h3>Аккумулятор DJI Mavic 3</h3>
@@ -181,7 +200,10 @@
 			</div>
 		</div>
 		<div class="single-service">
-			<img src="Images/pic-6.webp" alt="Акумулятор DJI Matrice 4">
+			<picture>
+				<source srcset="Images/pic-6.webp" type="image/webp">
+				<img src="Images/pic-6.jpg" alt="Акумулятор DJI Matrice 4" loading="lazy">
+			</picture>
 			<div class="overlay"></div>
 			<div class="service-desc">
 				<h3>Аккумулятор DJI Matrice 4</h3>
@@ -190,7 +212,10 @@
 			</div>
 		</div>
 		<div class="single-service">
-			<img src="Images/pic-7.webp" alt="Пульт DJI RC Plus 2 Enterprise Enhanced Controller для Matrice 4 Series">>
+			<picture>
+				<source srcset="Images/pic-7.webp" type="image/webp">
+				<img src="Images/pic-7.jpg" alt="Пульт DJI RC Plus 2 Enterprise Enhanced Controller для Matrice 4 Series" loading="lazy">
+			</picture>
 			<div class="overlay"></div>
 			<div class="service-desc">
 				<h3>Пульт DJI RC Plus 2 Enterprise Enhanced Controller for Matrice 4 Series</h3>
@@ -199,7 +224,10 @@
 			</div>
 		</div>
 		<div class="single-service">
-			<img src="Images/pic-8.webp" alt="Пульт DJI RC Pro Remote Controller">
+			<picture>
+				<source srcset="Images/pic-8.webp" type="image/webp">
+				<img src="Images/pic-8.jpg" alt="Пульт DJI RC Pro Remote Controller" loading="lazy">
+			</picture>
 			<div class="overlay"></div>
 			<div class="service-desc">
 				<h3>Пульт DJI RC Pro Remote Controller</h3>
@@ -218,7 +246,10 @@
 	<div class="testimonial-row">
 		<div class="testimonial-col">
 			<div class="user">
-				<img src="Images/img-1.jpg" alt="Фото Олександра, покупця у Харкові">
+				<picture>
+					<source srcset="Images/img-1.webp" type="image/webp">
+					<img src="Images/img-1.jpg" alt="Фото Олександра, покупця у Харкові" loading="lazy">
+				</picture>
 				<div class="user-info">
 					<h4>Олександр, Харків</h4>
 				</div>
@@ -227,7 +258,10 @@
 		</div>
 		<div class="testimonial-col">
 			<div class="user">
-				<img src="Images/img-2.jpg" alt="Фото Олени, покупчині з Чернігова">
+				<picture>
+					<source srcset="Images/img-2.webp" type="image/webp">
+					<img src="Images/img-2.jpg" alt="Фото Олени, покупчині з Чернігова" loading="lazy">
+				</picture>
 				<div class="user-info">
 					<h4>Олена, Чернігів</h4>
 				</div>
@@ -236,7 +270,10 @@
 		</div>
 		<div class="testimonial-col">
 			<div class="user">
-				<img src="Images/img-3.jpg" alt="Фото Микити, покупця із Сум">
+				<picture>
+					<source srcset="Images/img-3.webp" type="image/webp">
+					<img src="Images/img-3.jpg" alt="Фото Микити, покупця із Сум" loading="lazy">
+				</picture>
 				<div class="user-info">
 					<h4>Микита, Суми</h4>
 				</div>
@@ -305,7 +342,7 @@
 {
   "@context": "https://schema.org/",
   "@type": "Store",
-  "name": "Po Statusu Drones",
+  "name": "Status Drones",
   "image": "https://yourdomain.com/Images/banner.jpg",
   "@id": "",
   "url": "https://yourdomain.com/",
@@ -322,6 +359,5 @@
   ]
 }
 </script>
-
 </body>
 </html>
