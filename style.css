@@ -6,6 +6,7 @@
   --secondary_background:rgba(90, 95, 100, 1);
   --secondary-sections_cards: rgba(155, 160, 165, 1);
   --acent-buttons_markers: rgba(255, 90, 60, 1);
+  --acent-price-color:rgb(255, 38, 0);
   --secondary-acent-warm:rgba(230, 210, 150, 1);
   --cards-shadow:rgb(227, 219, 197);
 }
@@ -295,12 +296,13 @@ hr {
   width: 60%;
 }
 .service-desc p {
-  font-size: 20px;
-  color: var(--light-acent_text);
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--acent-price-color);
 }
 
 .single-service:hover .service-desc {
-  bottom: 40%;
+  bottom: 35%;
   opacity: 1;
 }
 
