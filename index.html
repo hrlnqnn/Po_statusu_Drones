@@ -31,26 +31,26 @@
 </head>
 <body>
 	<!--Banner-->
-<section id="banner">
-	<div class="banner-logo">
-		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50">
+<section class="banner" id="banner">
+	<div class="banner__logo">
+		<svg class="banner__logo-img" xmlns="http://www.w3.org/2000/svg" width="100" height="50">
 			<defs>
 				<clipPath id="half">
 					<rect x="0" y="0" width="50" height="50"/>
 				</clipPath>
 			</defs>
-			<image href="images/drone_logo.svg" width="100" height="50" clip-path="url(#half)" alt="Логотип Status Drones" loading="lazy"/>
+			<image class="banner__logo-svg" href="images/drone_logo.svg" width="100" height="50" clip-path="url(#half)" alt="Логотип Status Drones" loading="lazy"/>
 		</svg>
-		<h2 class="logo">Status <br> Drones</h2>
+		<h2 class="banner__logo-text">Status <br> Drones</h2>
 	</div>
-	<div class="banner-text">
-		<h1>Status Drones
-			<span class="subtext">Преміальні дрони та акумулятори для будь-яких завдань</span>
+	<div class="banner__text">
+		<h1 class="banner__title">Status Drones
+			<span class="banner__subtext">Преміальні дрони та акумулятори для будь-яких завдань</span>
 		</h1>
 	</div>
-	<video autoplay muted loop preload="auto" class="bg-video" poster="images/banner.webp" aria-label="Фонове відео з дроном">
-		<source src="video/background.mp4" type="video/mp4" alt="Дрон на сірому фоні" aria-label="Фонове відео з дроном">
-		<img src="images/banner.jpg" alt="Фонове зображення з дроном">
+	<video autoplay muted loop preload="auto" class="banner__video" poster="images/banner.webp" aria-label="Фонове відео з дроном">
+		<source class="banner__video-source" src="video/background.mp4" type="video/mp4" alt="Дрон на сірому фоні" aria-label="Фонове відео з дроном">
+		<img class="banner__video-fallback" src="images/banner.jpg" alt="Фонове зображення з дроном">
 	</video>
 </section> 
 <!--Burger menu-->
